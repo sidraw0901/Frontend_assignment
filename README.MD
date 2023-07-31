@@ -1,4 +1,14 @@
-# Frontend Task Essentially AI
+kindly first start both client(npm start ) and server(nodemon app.js)
+
+1. First take the input(stockname and date) from the user.
+2. if user enter no details give him an alert message.
+3. if user enter wrong details give him the message you entered wrong details.
+4. take the input send to backend ,with the help of input fetch the data form polygon api.
+5. send to frontend then after taking the data redirect to different route(display).
+6. In the display page, show all the data to the user like(open, close, volume etc).
+
+
+<!-- # Frontend Task Essentially AI
 
 ## Steps to complete the task
 1. Create a clone of this repo
@@ -28,4 +38,4 @@ The task is to build a webpage to display the trade statistics (Open, High, Low,
 
 ## Optional tasks
 1. Imagine this is a real world scenario which thousands of users use to get the historic data of a stock for a particular day, how would this product change in order to improve the UX.
-2. What new features would you add in this product to increase it's utility for the end user.
+2. What new features would you add in this product to increase it's utility for the end user. -->

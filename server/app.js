@@ -30,13 +30,12 @@ app.post('/api/fetchStockData', async(req, res) => {
 
     stock = req.body.stock
     date = req.body.user
-    console.log(stock)
 
     // let p =  fetch(`https://api.polygon.io/v1/open-close/${stock}/2023-01-09?adjusted=true&apiKey=ZH_cBvICta5hZjv1PMnjm_5lJH6TwUpZ`)
     let p =  fetch(`https://api.polygon.io/v1/open-close/${stock}/${date}?adjusted=true&apiKey=ZH_cBvICta5hZjv1PMnjm_5lJH6TwUpZ`)
-    console.log(p)
+
     let rest = await p.then((value1) =>{
-            console.log(value1.status)
+ 
             return value1.json()
     }).then((value2)=>{
             // res.json(value2)

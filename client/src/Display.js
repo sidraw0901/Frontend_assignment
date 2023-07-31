@@ -12,10 +12,6 @@ else
   return (
     <div>
 
-    {/* `{if({location.state.data.status} === null){
-
-    }}`
-     */}
       <h1> Yours searched stock details -  </h1>
       {/* <h1>{location.state.data.symbol}</h1> */}
       <div className="card" >
